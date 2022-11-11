@@ -1,0 +1,13 @@
+# configurations
+.eslintrc.json
+.prettierrc
+tsconfig.json
+webpack.dev.js
+webpack.prod.js
+.husky/
+
+# source files
+src/
+
+# build
+!dist/

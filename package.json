@@ -1,0 +1,40 @@
+{
+  "name": "akriti",
+  "version": "1.0.0",
+  "description": "An open-source and lightweight API for creating 2D Graphics.",
+  "main": "dist/akriti.js",
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "webpack serve --config webpack.dev.js",
+    "prod": "shx rm -rf dist && webpack --config webpack.prod.js",
+    "prepublishOnly": "npm run prod"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.2",
+    "prettier": "2.7.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kundanb/akriti-js.git"
+  },
+  "homepage": "https://github.com/kundanb/akriti-js",
+  "bugs": {
+    "url": "https://github.com/kundanb/akriti-js/issues",
+    "email": "iamkundanb@gmail.com"
+  },
+  "author": {
+    "name": "Kundan Bhasin",
+    "email": "iamkundanb@gmail.com",
+    "url": "https://github.com/kundanb"
+  },
+  "license": "MIT"
+}

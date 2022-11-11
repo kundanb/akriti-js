@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# prettier
+npx prettier --write .
+
+# eslint
+npx eslint . --ext .js
+cd src
+npx eslint . --ext .ts
+cd ..
+
+# git
+git add .
