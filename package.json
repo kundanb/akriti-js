@@ -1,6 +1,6 @@
 {
   "name": "akriti",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "An open-source and lightweight API for creating 2D Graphics.",
   "main": "dist/akriti.js",
   "scripts": {
